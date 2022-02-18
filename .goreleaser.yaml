@@ -14,8 +14,7 @@ builds:
       - windows
       - darwin
 archives:
-  - files:
-        - none*
+  - format: binary
     replacements:
       darwin: Darwin
       linux: Linux
